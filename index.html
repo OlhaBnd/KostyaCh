@@ -1,0 +1,178 @@
+<html>
+<head>
+    <title> Сайт-візитка </title>
+</head>
+
+<body>
+
+     <!-- Шапка сайту -->
+     <header class="header">
+        <div class="logo"> 
+            <img  src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/625px-Apple_logo_black.svg.png">
+        </div>
+        <nav class="nav">
+            <a href="#menu">Меню</a>
+            <a href="#home">На головну</a>
+            <a href="#signup">Зареєструватись</a>
+        </nav>
+    </header>
+
+    <main> 
+
+ 
+    <div class='product-item'>
+    <img class='product-img' src='https://kiber-image.kibernetiki.com.ua/resized/25c36326-9682-47c7-8107-6a6bd3e13087-xLarge.webp'>
+    <h3 class='product-title'>Смартфон Apple iPhone 16 256GB Ultramarine (MYEH3SX/A)</h3>
+    <div class='product-list'>
+      <p class='price'>52 499 ₴</p>
+      <a href='' class='button'>BUY</a>
+    </div>
+  </div>
+
+  <div class='product-item'>
+    <img class='product-img' src='https://content2.rozetka.com.ua/goods/images/big/433616804.jpg'>
+    <h3 class='product-title'>Планшет Apple iPad Pro 13" M4 2024 Wi-Fi 256GB Space Black (MVX23NF/A)</h3>
+    <div class='product-list'>
+      <p class='price'>71 999₴</p>
+      <a href='' class='button'>BUY</a>
+    </div>
+  </div>
+
+  <div class='product-item'>
+    <img class='product-img' src='https://content.rozetka.com.ua/goods/images/big/173875037.jpg'>
+    <h3 class='product-title'>Моноблок Apple iMac 24" М1 4.5К 8-ядер GPU 512GB Blue (MGPL3UA/A)</h3>
+    <div class='product-list'>
+      <p class='price'>62 999₴</p>
+      <a href='' class='button'>BUY</a>
+    </div>
+  </div>
+
+  <div class='product-item'>
+    <img class='product-img' src='https://images.prom.ua/5384354298_w640_h320_ochki-virtualnoj-realnosti.jpg'>
+    <h3 class='product-title'>Очки виртуальной реальности Apple Vision Pro 256GB (MQL83)</h3>
+    <div class='product-list'>
+      <p class='price'>125 589 ₴</p>
+      <a href='' class='button'>BUY</a>
+    </div>
+  </div>
+
+  <div class='product-item'>
+    <img class='product-img' src='https://storepods.com.ua/content/images/1/1200x400e80nn0/treker-airtag-ot-apple-kak-on-rabotaet-y-pochemu-s-nym-nykto-ne-smozhet-konkuryrovat-89794275301664.jpg'>
+    <h3 class='product-title'>Трекер AirTag от Apple — как он работает и почему с ним никто не сможет конкурировать</h3>
+    <div class='product-list'>
+      <p class='price'>1 699,00₴</p>
+      <a href='' class='button'>BUY</a>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+    <p>Зв'яжіться з нами:</p>
+    <p>Контакти: apple@gmail.com | Телефон: +123 456 7890</p>
+   
+</footer>
+
+</body>
+<style>
+
+      /* Стилі для шапки сайту */
+      .header {
+            background-color: #959a8d; /* Оливковий колір */
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+       
+        .logo img{
+            width: 15%;
+            height: 15%;
+            font-size: 24px;
+            color: #f5f5dc; /* Світлий колір для тексту логотипу */
+        }
+        .nav {
+            display: flex;
+            gap: 15px;
+        }
+        .nav a {
+            color: #f5f5dc;
+            text-decoration: none;
+            padding: 5px 10px;
+            border: 1px solid #f5f5dc;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .nav a:hover {
+            background-color: #f5f5dc;
+            color: #556b2f;
+        }
+
+        main {
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .footer {
+            background-color:  #959a8d;
+            color: #f5f5dc;
+            padding: 20px;
+            text-align: center;
+        }
+        body{
+            background-color: #c4c6c0;
+        }
+  .product-item {
+   width: 600px;
+   background: white;
+   border: 2px solid #dab1fa;
+   border-radius: 5px;
+   border-bottom: 2px solid #9926f1;
+}
+.product-img {
+    display: block;
+    width: 70%;
+    position: relative;
+    left: 40px;
+    right: 40px;
+    padding-top: 35px;
+} 
+.product-title {
+   font-size: 18px;
+   font-weight: 600;
+   color: #444444;
+   margin-bottom:10px;
+   width: 230px;
+   position: relative;
+   left: 35px;
+   right: 35px;
+} 
+.product-list {
+    width: 230px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    text-align: center;
+}
+.price {
+   display: inline;
+   font-size: 22px;
+   color: #9926f1;
+   margin-right: 40px;
+}
+.button {
+   display: inline-block;
+   text-decoration: none;
+   padding: 0 12px;
+   background: #a173c5;
+   color: white;
+   font-size: 16px;
+   line-height: 28px;
+   background: #9926f1;
+   box-shadow: 5px 5px 5px rgb(30, 1, 39);
+}
+</style>
+</html>
